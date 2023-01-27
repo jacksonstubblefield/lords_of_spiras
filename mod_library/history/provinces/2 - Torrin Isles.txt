@@ -1,0 +1,30 @@
+#�sterg�tland, contains Norrk�ping, Link�ping etc.
+
+owner = A20 #Dirinne
+controller = A20 #Dirinne
+add_core = A20 #Dirinne
+culture = western_olanni
+religion = jinnite
+
+hre = no
+
+base_tax = 1
+base_production = 4
+base_manpower = 1
+
+trade_goods = fish
+
+capital = ""
+
+is_city = yes
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,50 @@
+
+# If you add religions, and use those tags, do not change them without changing everywhere they are used.
+
+# Uses all 'modifiers' possible thats exported as a Modifier.
+
+spirassian = {
+	can_form_personal_unions = yes
+	defender_of_faith = yes
+	flags_with_emblem_percentage = 33 # default == 0
+	flag_emblem_index_range = { 1 57 }
+
+	ai_will_propagate_through_trade = yes # This must also be placed in trade nodes for it to work
+
+	center_of_religion = 
+
+	jinnite = {
+		color = { 0 148 255 }
+		icon = 
+		allowed_conversion = {
+			
+		}
+		country = {
+			tolerate_own = 1
+			tolerance_heathen = 1
+			tolerance_heretic = -2
+		}
+		country_as_secondary = {
+			tolerance_heathen = production_efficiency = 0.05
+		}
+
+		hre_religion = no
+
+		on_convert = {
+			change_religion = jinnite
+			if = {
+				add_prestige = -100
+
+				add_country_modifier = {
+					name = "conversion_zeal"
+					duration = 3650
+				}
+			}
+		}
+
+		heretic = { OLD_PANTHEON }
+	}
+
+	crusade_name = CRUSADE
+	harmonized_modifier = harmonized_cannorian
+}

@@ -1,0 +1,27 @@
+
+#Uppland, contains Stockholm, Uppsala & Nyköping.
+#First Province
+
+owner = A20 #Dirinne
+controller = A20 #Dirinne
+add_core = A20 #Dirinne
+culture = western_olanni
+religion = jinnite
+
+hre = no
+
+base_tax = 3
+base_production = 3
+base_manpower = 2
+
+trade_goods = fish
+capital = ""
+
+is_city = yes
+
+
+
+
+
+
+
